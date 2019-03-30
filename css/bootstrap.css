@@ -1,0 +1,33 @@
+@media (min-width: 1024px) {
+  .carousel-inner  > .item {
+    height: 620px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .carousel-inner  > .item {
+    height: 360px;
+  }
+}
+
+.carousel-inner > .item > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature {
+  transition: 0.5s;
+}
+
+.feature-1:hover {
+  transform: rotate(360deg);
+}
+
+.feature-2:hover {
+  transform: scale(1.2);
+}
+
+.feature-3:hover {
+  box-shadow: 0 0 10px blue;
+}
